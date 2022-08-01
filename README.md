@@ -17,7 +17,20 @@
 
 ## Usage
 
-1. Copy the contents of [`config.yaml`](https://github.com/catppuccin/zellij/blob/main/config.yaml) into your own zellij configuration file. The `catppuccin` entry inside of `themes` can be added to your already existing themes.
+**There are two ways to use this colour scheme:**
+
+**Using zellij configuration file**
+
+1. Copy the contents of [`catppuccin.yaml`](https://github.com/catppuccin/zellij/blob/main/config.yaml) into your own zellij configuration file. The `catppuccin` entry inside of `themes` can be added to your already existing themes.
+2. Set the line `theme: catppuccin-macchiato` to match your desired flavour. (latte, frappe, macchiato, mocha)
+
+**Using themes directory**
+
+1. Clone this repository locally, or download `catppuccin.yaml` directly.
+2. Move `catppuccin.yaml` to the `~/.config/zellij/themes` directory.
+3. Set the line `theme: catppuccin-macchiato` to match your desired flavour. (latte, frappe, macchiato, mocha)
+
+> Or you can choose a theme directly from the command line `zellij options --theme catppuccin-macchiato`.
 
 ## 💝 Thanks to
 
