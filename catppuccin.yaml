@@ -1,7 +1,7 @@
 themes:
   catppuccin-latte:
     bg: "#eff1f5"
-    fg: "#4c4f69"
+    fg: "#acb0be" # Surface2
     red: "#d20f39"
     green: "#40a02b"
     blue: "#1e66f5"
@@ -9,9 +9,9 @@ themes:
     magenta: "#ea76cb" # Pink
     orange: "#fe640b" # Peach
     cyan: "#04a5e5" # Sky
-    gray: "#ccd0da" # Surface0
-    black: "#e6e9ef" # Mantle
-    white: "#4c4f69"
+    gray: "#7c7f93" # Overlay2
+    black: "#4c4f69" # Text
+    white: "#dce0e8" # Crust
 
   catppuccin-frappe:
     bg: "#303446"
