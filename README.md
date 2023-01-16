@@ -38,6 +38,8 @@
 
 **There are two ways to use this colour scheme:**
 
+> Colour scheme is also provied by zellij itself. You can check zellij [theme gallery](https://zellij.dev/documentation/theme-gallery.html#catppuccin-latte).
+
 **Using zellij configuration file**
 
 1. Copy the contents of [`catppuccin.yaml`](https://github.com/catppuccin/zellij/blob/main/catppuccin.yaml) into your own zellij configuration file. The `catppuccin` entry inside of `themes` can be added to your already existing themes.
