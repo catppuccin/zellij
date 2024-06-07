@@ -1,0 +1,25 @@
+---
+whiskers:
+  version: "2.3.0"
+  filename: "catppuccin.kdl"
+---
+themes {
+{%- for identifier, flavor in flavors %}
+{%- set palette = flavor.colors %}
+  catppuccin-{{ identifier }} {
+    bg "#{{ palette.surface2.hex }}"
+    fg "#{{ palette.text.hex }}"
+    red "#{{ palette.red.hex }}"
+    green "#{{ palette.green.hex }}"
+    blue "#{{ palette.blue.hex }}"
+    yellow "#{{ palette.yellow.hex }}"
+    magenta "#{{ palette.pink.hex }}"
+    orange "#{{ palette.peach.hex }}"
+    cyan "#{{ palette.sky.hex }}"
+    black "#{{ palette.mantle.hex }}"
+    white "#{{ palette.text.hex }}"
+  }
+{%- if not loop.last %}
+{% endif -%}
+{%- endfor %}
+}
