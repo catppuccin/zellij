@@ -36,20 +36,17 @@
 
 ## Usage
 
-> Catppuccin is included in Zellij. More information about the zellij theme can be found in the [theme-gallery](https://zellij.dev/documentation/theme-gallery.html#catppuccin-latte)
+1. Catppuccin is [included in Zellij](https://zellij.dev/documentation/theme-gallery.html#catppuccin-latte)! To set Zellij to your preferred flavor, see https://zellij.dev/documentation/themes#getting-zellij-to-pick-up-the-theme.
 
-1. Edit your zellij [configuration](https://zellij.dev/documentation/configuration.html) file.
-2. Set `theme` to your preferred flavor.
-```kdl
-theme "catppuccin-mocha" // or latte, frappe and macchiato
-```
+### Manual
 
-Or it can be applied via CLI options `zellij options --theme catppuccin-mocha`.
+1. Copy the [`catppuccin.kdl`](catppuccin.kdl) file into your Zellij configuration file or themes directory.
+2. To set Zellij to your preferred flavor, see https://zellij.dev/documentation/themes#getting-zellij-to-pick-up-the-theme.
 
 ## 💝 Thanks to
 
--   [mainrs](https://github.com/mainrs)
--   [jaeheonji](https://github.com/jaeheonji)
+- [mainrs](https://github.com/mainrs)
+- [jaeheonji](https://github.com/jaeheonji)
 
 &nbsp;
 
