@@ -36,7 +36,7 @@
 
 ## Usage
 
-Catppuccin is [included in Zellij](https://zellij.dev/documentation/theme-gallery.html#catppuccin-latte)! To set Zellij to your preferred flavor,
+Catppuccin is [included in Zellij](https://zellij.dev/documentation/theme-list.html)! To set Zellij to your preferred flavor,
 see "[Getting Zellij to pick up the theme - Zellij](https://zellij.dev/documentation/themes#getting-zellij-to-pick-up-the-theme)."
 
 ### Manual
